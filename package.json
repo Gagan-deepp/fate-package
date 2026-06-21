@@ -1,0 +1,32 @@
+{
+  "name": "fate-cli-core",
+  "version": "1.0.2",
+  "type": "module",
+  "bin": {
+    "fate": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "template"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fs-extra": "^11.3.5"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-typescript": "^12.3.0",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^25.6.2",
+    "rollup": "^4.60.3",
+    "tslib": "^2.8.1",
+    "typescript": "^6.0.3"
+  }
+}
